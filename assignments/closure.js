@@ -1,6 +1,19 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+let explitive = "#@$#@%#@"; 
+
+function Anatomy_Park() {
+    let Morty_says =`Get me the ${explitive} out of here!!`;
+    console.log(Morty_says); 
+  };
+  Anatomy_Park(); 
+
+// The closure serve as the gateway between the global context and the outer scope. I cannot access directly variables from the outer scope if the closure is not allowing it. This way, I can protect the variables from the outer scope. They are – by all means – private and the closure can serve as a getter or setter for them.
+
+// Remember:
+
+// Closure are nested function which has access to the outer scope
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
